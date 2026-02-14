@@ -8,7 +8,11 @@ version = "0.0.0"
 description = "Predictoor bot (skeleton)"
 requires-python = ">=3.12"
 readme = "README.md"
-dependencies = []
+dependencies = [
+  "pdr-backend @ git+https://github.com/xopsio/pdr-backend.git@e155cd3",
+]
+
+
 
 [project.scripts]
 predictoor-bot = "predictoor_bot.cli:main"
