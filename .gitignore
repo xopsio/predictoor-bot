@@ -13,3 +13,11 @@ build/
 .env
 env
 .idea/
+.ipynb_checkpoints/
+.jupyter-runtime/
+.venv-jupyter/
+Untitled*.ipynb
+launch_jupyter.ps1
+launch_jupyter.vbs
+
+logging.yaml

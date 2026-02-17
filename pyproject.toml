@@ -8,9 +8,9 @@ version = "0.0.0"
 description = "Predictoor bot (skeleton)"
 requires-python = ">=3.12"
 readme = "README.md"
-dependencies = [
-  "pdr-backend @ git+https://github.com/xopsio/pdr-backend.git@e155cd3",
-]
+dependencies = []
+
+
 
 
 
@@ -25,6 +25,7 @@ dev = [
   "pytest>=8.0",
   "ruff>=0.6",
   "mypy>=1.8",
+  "pdr-backend @ git+https://github.com/xopsio/pdr-backend.git@v0.0.15-stopit-removed",
 ]
 
 [tool.mypy]
