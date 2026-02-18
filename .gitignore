@@ -21,3 +21,5 @@ launch_jupyter.ps1
 launch_jupyter.vbs
 
 logging.yaml
+
+.claude/
